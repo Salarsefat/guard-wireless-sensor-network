@@ -1,0 +1,22 @@
+\begin{table}[!htb]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E4 (lifetime: $E_0=0.3$\,J, 1 reading/s per node, 900\,s): means over 10 seeds (death times: 900\,s if no such death occurred). Delivered and timely readings are totals over the measurement window. Markers as in Table~\ref{tab:e1tdr}.\label{tab:e4}}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabularx}{\fulllength}{lCCCCCCCC}
+\toprule
+\textbf{Method} & \textbf{first node dead [s]} & \textbf{half nodes dead [s]} & \textbf{alive fraction at 900 s} & \textbf{delivered readings} & \textbf{timely readings} & \textbf{TDR(1 s)} & \textbf{delivery ratio} & \textbf{energy per reading [mJ]} \\
+\midrule
+GUARD & \textbf{350.9} & \textbf{900.0} & \textbf{0.768} & 39165 & \textbf{39165} & 0.508 & 0.508 & 0.505 \\
+TwinLoop & 116.5$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.702$^{\blacktriangle}$ & 37716$^{\circ}$ & 37707$^{\circ}$ & \textbf{0.522}$^{\circ}$ & 0.522$^{\circ}$ & 0.553$^{\blacktriangle}$ \\
+C-ETX & 84.5$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.708$^{\blacktriangle}$ & 29075$^{\blacktriangle}$ & 29075$^{\blacktriangle}$ & 0.409$^{\blacktriangle}$ & 0.409$^{\blacktriangle}$ & 0.699$^{\blacktriangle}$ \\
+BCP & 197.7$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.752$^{\circ}$ & \textbf{49812}$^{\triangledown}$ & 21708$^{\blacktriangle}$ & 0.280$^{\blacktriangle}$ & \textbf{0.643}$^{\triangledown}$ & \textbf{0.400}$^{\triangledown}$ \\
+CBPR-like & 106.7$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.708$^{\blacktriangle}$ & 17610$^{\blacktriangle}$ & 17609$^{\blacktriangle}$ & 0.253$^{\blacktriangle}$ & 0.253$^{\blacktriangle}$ & 1.136$^{\blacktriangle}$ \\
+GAN-ACO & 138.5$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.674$^{\blacktriangle}$ & 26269$^{\blacktriangle}$ & 26269$^{\blacktriangle}$ & 0.376$^{\blacktriangle}$ & 0.376$^{\blacktriangle}$ & 0.815$^{\blacktriangle}$ \\
+ACSRO-like & 81.8$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.725$^{\circ}$ & 29136$^{\blacktriangle}$ & 29136$^{\blacktriangle}$ & 0.409$^{\blacktriangle}$ & 0.409$^{\blacktriangle}$ & 0.679$^{\blacktriangle}$ \\
+FSFG-like & 84.4$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.716$^{\blacktriangle}$ & 29250$^{\blacktriangle}$ & 29250$^{\blacktriangle}$ & 0.410$^{\blacktriangle}$ & 0.410$^{\blacktriangle}$ & 0.689$^{\blacktriangle}$ \\
+RL-CC & 84.5$^{\blacktriangle}$ & 900.0$^{\circ}$ & 0.727$^{\blacktriangle}$ & 29073$^{\blacktriangle}$ & 29073$^{\blacktriangle}$ & 0.407$^{\blacktriangle}$ & 0.407$^{\blacktriangle}$ & 0.678$^{\blacktriangle}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

@@ -1,0 +1,6 @@
+{"D2_meas":       {"route": "meas", "batch": "none", "nlr": 2, "edf": false, "hdr": 0},
+ "G_meas_b":      {"route": "meas", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 1.0},
+ "H_meas_b_rd":   {"route": "meas", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 1.0, "rdel": 0.01},
+ "I_meas_b_eb":   {"route": "meas", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 1.0, "ebal": 0.5},
+ "J_hyb_b":       {"route": "hybrid", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 1.0},
+ "K_hyb_b_rd":    {"route": "hybrid", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 1.0, "rdel": 0.01}}

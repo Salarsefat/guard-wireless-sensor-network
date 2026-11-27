@@ -1,0 +1,45 @@
+== E2: 256 jobs -> /home/salar/twinloop-wsn/results/test/E2.jsonl
+[batch] 256 jobs, 0 done, 256 to run
+[batch] 20/256  196s
+[batch] 40/256  467s
+[batch] 60/256  587s
+[batch] 80/256  672s
+[batch] 100/256  824s
+[batch] 120/256  902s
+[batch] 140/256  945s
+[batch] 160/256  999s
+[batch] 180/256  1041s
+[batch] 200/256  1060s
+[batch] 220/256  1082s
+[batch] 240/256  1101s
+[batch] 256/256  1108s
+== E8: 192 jobs -> /home/salar/twinloop-wsn/results/test/E8.jsonl
+[batch] 192 jobs, 0 done, 192 to run
+[batch] 20/192  38s
+[batch] 40/192  85s
+[batch] 60/192  96s
+[batch] 80/192  133s
+[batch] 100/192  202s
+[batch] 120/192  234s
+[batch] 140/192  290s
+[batch] 160/192  369s
+[batch] 180/192  450s
+[batch] 192/192  478s
+== E6: 128 jobs -> /home/salar/twinloop-wsn/results/test/E6.jsonl
+[batch] 128 jobs, 0 done, 128 to run
+[batch] 20/128  65s
+[batch] 40/128  147s
+[batch] 60/128  227s
+[batch] 80/128  289s
+[batch] 100/128  349s
+[batch] 120/128  411s
+[batch] 128/128  437s
+== E4: 48 jobs -> /home/salar/twinloop-wsn/results/test/E4.jsonl
+[batch] 48 jobs, 0 done, 48 to run
+[batch] 20/48  170s
+[batch] 40/48  318s
+[batch] 48/48  345s
+== E7: 30 jobs -> /home/salar/twinloop-wsn/results/test/E7.jsonl
+[batch] 30 jobs, 0 done, 30 to run
+[batch] 20/30  72s
+[batch] 30/30  82s

@@ -1,0 +1,401 @@
+{
+ "E1": {
+  "n_runs": 810,
+  "methods": [
+   "acsro",
+   "bcp",
+   "cbpr",
+   "cetx",
+   "fsfg",
+   "ganaco",
+   "guard",
+   "rlcc",
+   "twinloop"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115
+  ],
+  "tags": [
+   "E1"
+  ],
+  "scenarios": [
+   {
+    "T": 300.0,
+    "lam": 0.25
+   },
+   {
+    "T": 300.0,
+    "lam": 0.5
+   },
+   {
+    "T": 300.0,
+    "lam": 1.0
+   },
+   {
+    "T": 300.0,
+    "lam": 1.5
+   },
+   {
+    "T": 300.0,
+    "lam": 2.0
+   },
+   {
+    "T": 300.0,
+    "lam": 3.0
+   }
+  ]
+ },
+ "E2": {
+  "n_runs": 360,
+  "methods": [
+   "acsro",
+   "bcp",
+   "cbpr",
+   "cetx",
+   "fsfg",
+   "ganaco",
+   "guard",
+   "rlcc",
+   "twinloop"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "tags": [
+   "E2"
+  ],
+  "scenarios": [
+   {
+    "T": 300.0,
+    "area": 353.6,
+    "lam": 1.0,
+    "n": 50
+   },
+   {
+    "T": 300.0,
+    "area": 500.0,
+    "lam": 1.0,
+    "n": 100
+   },
+   {
+    "T": 300.0,
+    "area": 707.1,
+    "lam": 1.0,
+    "n": 200
+   },
+   {
+    "T": 300.0,
+    "area": 866.0,
+    "lam": 1.0,
+    "n": 300
+   }
+  ]
+ },
+ "E3": {
+  "n_runs": 540,
+  "methods": [
+   "acsro",
+   "bcp",
+   "cbpr",
+   "cetx",
+   "fsfg",
+   "ganaco",
+   "guard",
+   "rlcc",
+   "twinloop"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "tags": [
+   "E3:cc2420",
+   "E3:clustered",
+   "E3:corner",
+   "E3:events",
+   "E3:harsh",
+   "E3:mild"
+  ],
+  "scenarios": [
+   {
+    "T": 300.0,
+    "capture_delta": 0.3,
+    "lam": 1.0
+   },
+   {
+    "T": 300.0,
+    "capture_delta": 1.0,
+    "lam": 1.0
+   },
+   {
+    "T": 300.0,
+    "energy": "cc2420",
+    "lam": 1.0
+   },
+   {
+    "T": 300.0,
+    "events": true,
+    "lam": 0.5
+   },
+   {
+    "T": 300.0,
+    "lam": 1.0,
+    "sink": "corner"
+   },
+   {
+    "T": 300.0,
+    "lam": 1.0,
+    "topo": "clustered"
+   }
+  ]
+ },
+ "E4": {
+  "n_runs": 90,
+  "methods": [
+   "acsro",
+   "bcp",
+   "cbpr",
+   "cetx",
+   "fsfg",
+   "ganaco",
+   "guard",
+   "rlcc",
+   "twinloop"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "tags": [
+   "E4"
+  ],
+  "scenarios": [
+   {
+    "E0": 0.3,
+    "T": 900.0,
+    "lam": 1.0
+   }
+  ]
+ },
+ "E5": {
+  "n_runs": 360,
+  "methods": [
+   "guard"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "tags": [
+   "E5:ctp_like",
+   "E5:full",
+   "E5:model_prior",
+   "E5:no_dispatch",
+   "E5:no_edf",
+   "E5:no_energy_terms",
+   "E5:no_nlr",
+   "E5:static_etx",
+   "E5:with_decorrelation"
+  ],
+  "scenarios": [
+   {
+    "T": 300.0,
+    "lam": 0.5
+   },
+   {
+    "T": 300.0,
+    "lam": 1.0
+   },
+   {
+    "T": 300.0,
+    "lam": 2.0
+   },
+   {
+    "T": 300.0,
+    "lam": 3.0
+   }
+  ]
+ },
+ "E6": {
+  "n_runs": 290,
+  "methods": [
+   "guard"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "tags": [
+   "E6:alpha_s=0.02",
+   "E6:alpha_s=0.05",
+   "E6:alpha_s=0.1",
+   "E6:alpha_s=0.2",
+   "E6:beta=0.05",
+   "E6:beta=0.1",
+   "E6:beta=0.25",
+   "E6:beta=0.5",
+   "E6:beta=0.75",
+   "E6:kappa=0.25",
+   "E6:kappa=0.5",
+   "E6:kappa=1.0",
+   "E6:kappa=2.0",
+   "E6:kappa=4.0",
+   "E6:nlr=0",
+   "E6:nlr=1",
+   "E6:nlr=2",
+   "E6:nlr=3",
+   "E6:nlr=4",
+   "E6:rdel=0.0",
+   "E6:rdel=0.005",
+   "E6:rdel=0.01",
+   "E6:rdel=0.02",
+   "E6:rdel=0.05",
+   "E6:u0=0.0",
+   "E6:u0=0.1",
+   "E6:u0=0.2",
+   "E6:u0=0.3",
+   "E6:u0=0.4"
+  ],
+  "scenarios": [
+   {
+    "T": 300.0,
+    "lam": 2.0
+   }
+  ]
+ },
+ "E7": {
+  "n_runs": 140,
+  "methods": [
+   "guard"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "tags": [
+   "E7:h=0.0025",
+   "E7:h=0.005",
+   "E7:h=0.01",
+   "E7:h=0.02",
+   "E7:h=0.04",
+   "E7:h=0.08",
+   "E7:h=inf"
+  ],
+  "scenarios": [
+   {
+    "T": 300.0,
+    "lam": 1.0
+   },
+   {
+    "T": 300.0,
+    "lam": 2.0
+   }
+  ]
+ },
+ "E8": {
+  "n_runs": 270,
+  "methods": [
+   "acsro",
+   "bcp",
+   "cbpr",
+   "cetx",
+   "fsfg",
+   "ganaco",
+   "guard",
+   "rlcc",
+   "twinloop"
+  ],
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110
+  ],
+  "tags": [
+   "E8"
+  ],
+  "scenarios": [
+   {
+    "T": 300.0,
+    "lam": 0.5
+   },
+   {
+    "T": 300.0,
+    "lam": 1.0
+   },
+   {
+    "T": 300.0,
+    "lam": 2.0
+   }
+  ]
+ }
+}

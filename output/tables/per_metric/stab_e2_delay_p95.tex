@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E2: 95th-percentile delay [ms] by number of sensors; mean\,$\pm$\,95\% CI over 10 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e2:delay_p95}}
+\footnotesize
+\setlength{\tabcolsep}{0.9pt}
+\begin{tabularx}{\fulllength}{lCCCC}
+\toprule
+\textbf{Method} & \textbf{50} & \textbf{100} & \textbf{200} & \textbf{300} \\
+\midrule
+GUARD & 32.4\,$\pm$\,12.3 & 94.3\,$\pm$\,8.0 & 181.4\,$\pm$\,23.3 & 336.9\,$\pm$\,179.6 \\
+TwinLoop & 280.8\,$\pm$\,22.9$^{\blacktriangle}$ & 426.9\,$\pm$\,35.0$^{\blacktriangle}$ & 526.5\,$\pm$\,31.5$^{\blacktriangle}$ & 581.6\,$\pm$\,16.6$^{\circ}$ \\
+C-ETX & 21.4\,$\pm$\,1.0$^{\circ}$ & 36.7\,$\pm$\,1.2$^{\triangledown}$ & 72.7\,$\pm$\,3.4$^{\triangledown}$ & 102.8\,$\pm$\,7.9$^{\triangledown}$ \\
+BCP & 6644.2\,$\pm$\,252.7$^{\blacktriangle}$ & 8329.3\,$\pm$\,446.1$^{\blacktriangle}$ & 10152.7\,$\pm$\,564.3$^{\blacktriangle}$ & 10801.6\,$\pm$\,392.8$^{\blacktriangle}$ \\
+CBPR-like & 51.4\,$\pm$\,3.7$^{\circ}$ & 94.8\,$\pm$\,12.0$^{\circ}$ & 216.7\,$\pm$\,15.4$^{\blacktriangle}$ & 300.2\,$\pm$\,19.6$^{\circ}$ \\
+GAN-ACO & 28.6\,$\pm$\,0.8$^{\circ}$ & 51.2\,$\pm$\,4.1$^{\triangledown}$ & 139.3\,$\pm$\,18.9$^{\triangledown}$ & 245.6\,$\pm$\,25.4$^{\circ}$ \\
+ACSRO-like & 21.1\,$\pm$\,0.9$^{\circ}$ & 36.7\,$\pm$\,1.0$^{\triangledown}$ & 72.3\,$\pm$\,3.3$^{\triangledown}$ & 102.2\,$\pm$\,8.0$^{\triangledown}$ \\
+FSFG-like & \textbf{21.1}\,$\pm$\,\textbf{0.9}$^{\circ}$ & \textbf{35.9}\,$\pm$\,\textbf{1.0}$^{\triangledown}$ & \textbf{69.0}\,$\pm$\,\textbf{3.3}$^{\triangledown}$ & \textbf{97.6}\,$\pm$\,\textbf{7.5}$^{\triangledown}$ \\
+RL-CC & 21.4\,$\pm$\,1.0$^{\circ}$ & 36.7\,$\pm$\,1.2$^{\triangledown}$ & 72.7\,$\pm$\,3.4$^{\triangledown}$ & 102.8\,$\pm$\,7.9$^{\triangledown}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

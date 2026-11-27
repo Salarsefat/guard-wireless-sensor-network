@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E8: energy per reading [mJ] by load [readings/s per node], default configurations; mean\,$\pm$\,95\% CI over 10 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e8:energy_per_reading_mJ}}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabularx}{\fulllength}{lCCC}
+\toprule
+\textbf{Method} & \textbf{0.5} & \textbf{1} & \textbf{2} \\
+\midrule
+GUARD & 0.514\,$\pm$\,0.011 & 0.350\,$\pm$\,0.009 & \textbf{0.257}\,$\pm$\,\textbf{0.009} \\
+TwinLoop & 0.566\,$\pm$\,0.016$^{\blacktriangle}$ & 0.402\,$\pm$\,0.015$^{\blacktriangle}$ & 0.364\,$\pm$\,0.019$^{\blacktriangle}$ \\
+C-ETX & 0.590\,$\pm$\,0.019$^{\blacktriangle}$ & 0.490\,$\pm$\,0.020$^{\blacktriangle}$ & 0.559\,$\pm$\,0.033$^{\blacktriangle}$ \\
+BCP & \textbf{0.477}\,$\pm$\,\textbf{0.015}$^{\triangledown}$ & \textbf{0.334}\,$\pm$\,\textbf{0.015}$^{\triangledown}$ & 0.293\,$\pm$\,0.019$^{\blacktriangle}$ \\
+CBPR-like & 0.695\,$\pm$\,0.027$^{\blacktriangle}$ & 0.621\,$\pm$\,0.037$^{\blacktriangle}$ & 0.871\,$\pm$\,0.082$^{\blacktriangle}$ \\
+GAN-ACO & 0.624\,$\pm$\,0.014$^{\blacktriangle}$ & 0.512\,$\pm$\,0.021$^{\blacktriangle}$ & 0.605\,$\pm$\,0.061$^{\blacktriangle}$ \\
+ACSRO-like & 0.590\,$\pm$\,0.019$^{\blacktriangle}$ & 0.490\,$\pm$\,0.020$^{\blacktriangle}$ & 0.559\,$\pm$\,0.033$^{\blacktriangle}$ \\
+FSFG-like & 0.600\,$\pm$\,0.018$^{\blacktriangle}$ & 0.495\,$\pm$\,0.021$^{\blacktriangle}$ & 0.529\,$\pm$\,0.026$^{\blacktriangle}$ \\
+RL-CC & 0.590\,$\pm$\,0.019$^{\blacktriangle}$ & 0.490\,$\pm$\,0.020$^{\blacktriangle}$ & 0.559\,$\pm$\,0.033$^{\blacktriangle}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

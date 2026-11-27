@@ -1,0 +1,12 @@
+life
+             fnd  alive_frac  tdr_1    gdr  energy_per_reading_mJ  delivered  readings_per_frame  delay_mean  delay_p95
+variant                                                                                                                
+L2       349.982       0.787  0.493  0.493                  0.497  38288.333               1.724       0.162      0.427
+R05      363.728       0.797  0.504  0.504                  0.484  39227.000               1.798       0.178      0.444
+R2       361.000       0.800  0.512  0.512                  0.479  39974.333               1.861       0.198      0.472
+main1
+         fnd  alive_frac  tdr_1  gdr  energy_per_reading_mJ  delivered  readings_per_frame  delay_mean  delay_p95
+variant                                                                                                          
+L2       NaN         1.0    1.0  1.0                  0.346  26053.000               1.242       0.050      0.135
+R05      NaN         1.0    1.0  1.0                  0.332  26054.333               1.438       0.093      0.249
+R2       NaN         1.0    1.0  1.0                  0.318  26051.333               1.597       0.137      0.365

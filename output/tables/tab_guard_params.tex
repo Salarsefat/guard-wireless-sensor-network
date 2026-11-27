@@ -1,0 +1,25 @@
+\begin{table}[!htb]
+\caption{Parameters of GUARD: default (chosen on development seeds) and tuned value (validation seeds; used in all test experiments unless stated otherwise).\label{tab:guardparams}}
+\footnotesize
+\begin{tabularx}{\textwidth}{lXcc}
+\toprule
+\textbf{Symbol} & \textbf{Meaning} & \textbf{Default} & \textbf{Tuned}\\
+\midrule
+$\alpha$ & weight of the link estimator (per attempt) & 0.05 & 0.1 \\
+$\zeta$ & parent hysteresis & 0.1 & 0.1 \\
+$\omega$ & energy-balance weight of the routing metric & 0.5 & 0.5 \\
+$h$ & holding cost per reading and second (prices are relative to $h$) & 0.01 & 0.01 \\
+$\kappa$ & weight of the congestion price & 1 & 0.5 \\
+$u_0$ & busy fraction below which the congestion price is zero & 0 & 0.3 \\
+$c_E$ & weight of the energy-scarcity price & 2 & 2 \\
+$c_R$ & weight of the drain-rate price & 0 & 0 \\
+$\beta$ & fraction of the slack that may be spent waiting & 0.25 & 0.25 \\
+$w_{\max}$ & absolute cap on waiting [s] & 1 & 1 \\
+$\delta$ & delay budget per expected attempt [s] & 0.01 & 0.01 \\
+$\tau$ & deadline [s] & 1 & 1 \\
+$N_\mathrm{r}$ & network-layer retransmission rounds & 2 & 3 \\
+$b$ & bound of the decorrelation delay [s] & 0.01 & 0 \\
+$a$ & weight of the per-second averages ($u_i$, $\Lambda_i$, $P_i$) & 0.3 & 0.3 \\
+\bottomrule
+\end{tabularx}
+\end{table}

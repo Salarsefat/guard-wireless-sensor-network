@@ -1,0 +1,42 @@
+guard 101 done
+guard 102 done
+guard 103 done
+bcp 101 done
+bcp 102 done
+bcp 103 done
+twinloop 101 done
+twinloop 102 done
+twinloop 103 done
+cetx 101 done
+cetx 102 done
+cetx 103 done
+guard_no_route_energy 101 done
+guard_no_route_energy 102 done
+guard_no_route_energy 103 done
+guard_no_price_energy 101 done
+guard_no_price_energy 102 done
+guard_no_price_energy 103 done
+guard_no_energy_terms 101 done
+guard_no_energy_terms 102 done
+guard_no_energy_terms 103 done
+guard                  seed 101  sink nbrs 12  deaths 22  fnd 360  sink-nbr deaths 11  first-9 nbr deaths [370, 372, 373, 374, 375, 376, 379, 381, 381]  alive/connected at end 78/0  delivered 34849 timely 34849
+guard                  seed 102  sink nbrs 17  deaths 20  fnd 448  sink-nbr deaths 10  first-9 nbr deaths [463, 470, 487, 490, 493, 493, 493, 493, 722]  alive/connected at end 80/7  delivered 48974 timely 48974
+guard                  seed 103  sink nbrs 14  deaths 20  fnd 403  sink-nbr deaths 12  first-9 nbr deaths [423, 424, 428, 430, 431, 431, 431, 431, 431]  alive/connected at end 80/0  delivered 40464 timely 40464
+bcp                    seed 101  sink nbrs 12  deaths 25  fnd 194  sink-nbr deaths 10  first-9 nbr deaths [243, 377, 424, 438, 538, 545, 576, 586, 599]  alive/connected at end 75/1  delivered 44998 timely 19528
+bcp                    seed 102  sink nbrs 17  deaths 23  fnd 221  sink-nbr deaths  9  first-9 nbr deaths [305, 432, 470, 476, 548, 581, 707, 803, 815]  alive/connected at end 77/8  delivered 58580 timely 25585
+bcp                    seed 103  sink nbrs 14  deaths 24  fnd 270  sink-nbr deaths 11  first-9 nbr deaths [339, 349, 392, 429, 438, 566, 568, 588, 643]  alive/connected at end 76/1  delivered 55949 timely 24655
+twinloop               seed 101  sink nbrs 12  deaths 31  fnd 100  sink-nbr deaths 11  first-9 nbr deaths [227, 243, 288, 352, 380, 389, 405, 413, 421]  alive/connected at end 69/0  delivered 34995 timely 34987
+twinloop               seed 102  sink nbrs 17  deaths 26  fnd 151  sink-nbr deaths  9  first-9 nbr deaths [232, 299, 322, 361, 376, 456, 478, 480, 872]  alive/connected at end 74/7  delivered 44250 timely 44248
+twinloop               seed 103  sink nbrs 14  deaths 29  fnd 143  sink-nbr deaths 12  first-9 nbr deaths [244, 244, 314, 329, 333, 373, 386, 398, 464]  alive/connected at end 71/0  delivered 40271 timely 40262
+cetx                   seed 101  sink nbrs 12  deaths 30  fnd 94  sink-nbr deaths 12  first-9 nbr deaths [187, 191, 193, 241, 258, 278, 306, 312, 322]  alive/connected at end 70/0  delivered 24724 timely 24724
+cetx                   seed 102  sink nbrs 17  deaths 29  fnd 114  sink-nbr deaths 10  first-9 nbr deaths [169, 203, 261, 263, 315, 359, 412, 429, 620]  alive/connected at end 71/6  delivered 38804 timely 38804
+cetx                   seed 103  sink nbrs 14  deaths 27  fnd 104  sink-nbr deaths 11  first-9 nbr deaths [193, 215, 217, 250, 307, 309, 319, 327, 344]  alive/connected at end 73/1  delivered 30729 timely 30729
+guard_no_route_energy  seed 101  sink nbrs 12  deaths 22  fnd 185  sink-nbr deaths 10  first-9 nbr deaths [196, 250, 253, 260, 310, 353, 362, 400, 402]  alive/connected at end 78/1  delivered 37298 timely 37298
+guard_no_route_energy  seed 102  sink nbrs 17  deaths 22  fnd 231  sink-nbr deaths 10  first-9 nbr deaths [231, 234, 363, 428, 463, 473, 510, 546, 554]  alive/connected at end 78/7  delivered 53173 timely 53173
+guard_no_route_energy  seed 103  sink nbrs 14  deaths 21  fnd 269  sink-nbr deaths 12  first-9 nbr deaths [269, 295, 317, 332, 342, 345, 380, 415, 437]  alive/connected at end 79/0  delivered 43972 timely 43972
+guard_no_price_energy  seed 101  sink nbrs 12  deaths 18  fnd 242  sink-nbr deaths 10  first-9 nbr deaths [245, 250, 251, 254, 260, 263, 264, 266, 266]  alive/connected at end 82/1  delivered 24286 timely 24285
+guard_no_price_energy  seed 102  sink nbrs 17  deaths 22  fnd 361  sink-nbr deaths 12  first-9 nbr deaths [361, 383, 384, 385, 385, 386, 386, 386, 447]  alive/connected at end 78/5  delivered 38616 timely 38616
+guard_no_price_energy  seed 103  sink nbrs 14  deaths 21  fnd 312  sink-nbr deaths 12  first-9 nbr deaths [315, 321, 321, 322, 322, 322, 322, 322, 323]  alive/connected at end 79/0  delivered 29704 timely 29704
+guard_no_energy_terms  seed 101  sink nbrs 12  deaths 25  fnd 150  sink-nbr deaths 11  first-9 nbr deaths [150, 164, 166, 175, 196, 196, 224, 250, 255]  alive/connected at end 75/1  delivered 24019 timely 23987
+guard_no_energy_terms  seed 102  sink nbrs 17  deaths 25  fnd 167  sink-nbr deaths 13  first-9 nbr deaths [167, 291, 306, 307, 309, 360, 361, 374, 381]  alive/connected at end 75/4  delivered 39436 timely 39436
+guard_no_energy_terms  seed 103  sink nbrs 14  deaths 19  fnd 171  sink-nbr deaths 12  first-9 nbr deaths [171, 217, 222, 227, 246, 284, 304, 306, 309]  alive/connected at end 81/0  delivered 30068 timely 30068

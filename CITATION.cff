@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying article (details will be added on acceptance)."
+title: "GUARD: Hidden-Terminal-Aware Collection with Priced, Deadline-Safe Aggregation for Timely Data Delivery in Wireless Sensor Networks (code and data)"
+type: software
+license: MIT
+repository-code: "https://github.com/Salarsefat/guard-wsn"
+version: 2.0.0
+date-released: 2026-11-27
+authors:
+  - family-names: "Sefati"
+    given-names: "Seyed Salar"
+    affiliation: "National University of Science and Technology POLITEHNICA Bucharest; Istinye University"
+  - family-names: "Maiduc"
+    given-names: "Sanda"
+    affiliation: "National University of Science and Technology POLITEHNICA Bucharest"
+keywords:
+  - wireless sensor networks
+  - data collection
+  - hidden terminals
+  - frame aggregation
+  - batch-service queues
+  - congestion control
+  - IEEE 802.15.4

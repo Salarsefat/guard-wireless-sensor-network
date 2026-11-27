@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E1: mean delay [ms] by load [readings/s per node]; mean\,$\pm$\,95\% CI over 15 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e1:delay_mean}}
+\footnotesize
+\setlength{\tabcolsep}{0.9pt}
+\begin{tabularx}{\fulllength}{lCCCCCC}
+\toprule
+\textbf{Method} & \textbf{0.25} & \textbf{0.5} & \textbf{1} & \textbf{1.5} & \textbf{2} & \textbf{3} \\
+\midrule
+GUARD & \textbf{9.9}\,$\pm$\,\textbf{0.4} & 15.7\,$\pm$\,2.2 & 33.4\,$\pm$\,2.5 & 49.5\,$\pm$\,3.4 & 62.7\,$\pm$\,3.0 & 144.4\,$\pm$\,78.3 \\
+TwinLoop & 48.6\,$\pm$\,15.9$^{\blacktriangle}$ & 116.4\,$\pm$\,14.3$^{\blacktriangle}$ & 121.7\,$\pm$\,6.6$^{\blacktriangle}$ & 108.0\,$\pm$\,6.3$^{\blacktriangle}$ & 95.5\,$\pm$\,4.5$^{\blacktriangle}$ & 84.1\,$\pm$\,3.3$^{\triangledown}$ \\
+C-ETX & 11.8\,$\pm$\,0.3$^{\blacktriangle}$ & 13.0\,$\pm$\,0.3$^{\circ}$ & 16.7\,$\pm$\,0.5$^{\triangledown}$ & 22.3\,$\pm$\,0.7$^{\triangledown}$ & 29.9\,$\pm$\,1.1$^{\triangledown}$ & 48.0\,$\pm$\,2.3$^{\triangledown}$ \\
+BCP & 9375.6\,$\pm$\,320.5$^{\blacktriangle}$ & 4726.5\,$\pm$\,138.9$^{\blacktriangle}$ & 2415.3\,$\pm$\,86.9$^{\blacktriangle}$ & 1619.7\,$\pm$\,62.5$^{\blacktriangle}$ & 1222.6\,$\pm$\,51.4$^{\blacktriangle}$ & 836.7\,$\pm$\,39.9$^{\blacktriangle}$ \\
+CBPR-like & 23.3\,$\pm$\,1.6$^{\blacktriangle}$ & 28.1\,$\pm$\,2.2$^{\blacktriangle}$ & 44.4\,$\pm$\,4.3$^{\blacktriangle}$ & 69.5\,$\pm$\,6.1$^{\blacktriangle}$ & 94.9\,$\pm$\,6.1$^{\blacktriangle}$ & 129.4\,$\pm$\,5.1$^{\circ}$ \\
+GAN-ACO & 14.8\,$\pm$\,0.6$^{\blacktriangle}$ & 16.4\,$\pm$\,0.6$^{\circ}$ & 22.7\,$\pm$\,1.1$^{\triangledown}$ & 35.5\,$\pm$\,2.4$^{\triangledown}$ & 58.3\,$\pm$\,5.7$^{\circ}$ & 110.2\,$\pm$\,8.1$^{\circ}$ \\
+ACSRO-like & 11.7\,$\pm$\,0.3$^{\blacktriangle}$ & 13.0\,$\pm$\,0.3$^{\circ}$ & 16.7\,$\pm$\,0.4$^{\triangledown}$ & 22.2\,$\pm$\,0.7$^{\triangledown}$ & 29.6\,$\pm$\,1.1$^{\triangledown}$ & 47.8\,$\pm$\,2.0$^{\triangledown}$ \\
+FSFG-like & 11.6\,$\pm$\,0.3$^{\blacktriangle}$ & \textbf{12.9}\,$\pm$\,\textbf{0.3}$^{\circ}$ & \textbf{16.4}\,$\pm$\,\textbf{0.4}$^{\triangledown}$ & \textbf{21.3}\,$\pm$\,\textbf{0.6}$^{\triangledown}$ & \textbf{27.5}\,$\pm$\,\textbf{0.9}$^{\triangledown}$ & \textbf{42.5}\,$\pm$\,\textbf{1.6}$^{\triangledown}$ \\
+RL-CC & 11.8\,$\pm$\,0.3$^{\blacktriangle}$ & 13.0\,$\pm$\,0.3$^{\circ}$ & 16.7\,$\pm$\,0.5$^{\triangledown}$ & 22.3\,$\pm$\,0.7$^{\triangledown}$ & 29.9\,$\pm$\,1.1$^{\triangledown}$ & 48.0\,$\pm$\,2.3$^{\triangledown}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E8: 95th-percentile delay [ms] by load [readings/s per node], default configurations; mean\,$\pm$\,95\% CI over 10 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e8:delay_p95}}
+\footnotesize
+\setlength{\tabcolsep}{0.9pt}
+\begin{tabularx}{\fulllength}{lCCC}
+\toprule
+\textbf{Method} & \textbf{0.5} & \textbf{1} & \textbf{2} \\
+\midrule
+GUARD & 68.1\,$\pm$\,15.9 & 129.8\,$\pm$\,11.6 & 200.8\,$\pm$\,8.0 \\
+TwinLoop & 477.1\,$\pm$\,36.6$^{\blacktriangle}$ & 570.5\,$\pm$\,34.4$^{\blacktriangle}$ & 534.0\,$\pm$\,20.1$^{\blacktriangle}$ \\
+C-ETX & 26.3\,$\pm$\,0.8$^{\triangledown}$ & 38.0\,$\pm$\,1.2$^{\triangledown}$ & 71.4\,$\pm$\,2.3$^{\triangledown}$ \\
+BCP & 15445.1\,$\pm$\,809.0$^{\blacktriangle}$ & 7840.6\,$\pm$\,404.9$^{\blacktriangle}$ & 3977.5\,$\pm$\,224.7$^{\blacktriangle}$ \\
+CBPR-like & 55.1\,$\pm$\,6.0$^{\circ}$ & 94.8\,$\pm$\,12.0$^{\triangledown}$ & 196.0\,$\pm$\,17.5$^{\circ}$ \\
+GAN-ACO & 32.1\,$\pm$\,1.3$^{\triangledown}$ & 51.5\,$\pm$\,4.0$^{\triangledown}$ & 134.8\,$\pm$\,16.2$^{\triangledown}$ \\
+ACSRO-like & 26.3\,$\pm$\,0.8$^{\triangledown}$ & 38.0\,$\pm$\,1.2$^{\triangledown}$ & 71.4\,$\pm$\,2.3$^{\triangledown}$ \\
+FSFG-like & \textbf{25.9}\,$\pm$\,\textbf{0.8}$^{\triangledown}$ & \textbf{36.2}\,$\pm$\,\textbf{1.2}$^{\triangledown}$ & \textbf{62.1}\,$\pm$\,\textbf{2.0}$^{\triangledown}$ \\
+RL-CC & 26.3\,$\pm$\,0.8$^{\triangledown}$ & 38.0\,$\pm$\,1.2$^{\triangledown}$ & 71.4\,$\pm$\,2.3$^{\triangledown}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

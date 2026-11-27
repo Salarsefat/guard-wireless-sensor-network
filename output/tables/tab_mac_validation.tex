@@ -1,0 +1,20 @@
+\begin{table}[H]
+\caption{Simulator sanity checks on hand-built topologies (5 seeds each, 60\,s). Top: saturated single 50\,m link with full frames of 101\,bytes; the analytical rate is $K/t_\mathrm{cyc}$ with $t_\mathrm{cyc}=5.216$\,ms. Bottom: two senders at 90\,m from a common receiver, hidden from each other (180\,m apart, beyond the 150\,m carrier-sense range) or within carrier-sense range (90\,m apart); per-sender load in readings/s.\label{tab:macval}}
+\small
+\begin{tabularx}{\textwidth}{lCCCC}
+\toprule
+\multicolumn{5}{l}{\textbf{Saturated single link}}\\
+ & \multicolumn{2}{c}{Analytical (readings/s)} & \multicolumn{2}{c}{Simulated (readings/s)}\\
+ & \multicolumn{2}{c}{766.9} & \multicolumn{2}{c}{764.7\,$\pm$\,1.0}\\
+\midrule
+\multicolumn{5}{l}{\textbf{Two senders, one receiver}}\\
+ & \multicolumn{2}{c}{Hidden senders} & \multicolumn{2}{c}{Senders in carrier-sense range}\\
+\textbf{Load} & \textbf{Collided (\%)} & \textbf{GDR} & \textbf{Collided (\%)} & \textbf{GDR}\\
+\midrule
+5 & 4.3 & 0.992 & 0.3 & 1.000 \\
+20 & 12.6 & 0.982 & 2.1 & 0.999 \\
+50 & 29.5 & 0.937 & 4.8 & 1.000 \\
+100 & 57.6 & 0.746 & 10.2 & 0.998 \\
+\bottomrule
+\end{tabularx}
+\end{table}

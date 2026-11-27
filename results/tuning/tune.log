@@ -1,0 +1,54 @@
+[batch] 864 jobs, 0 done, 864 to run
+[batch] 20/864  21s
+[batch] 40/864  45s
+[batch] 60/864  66s
+[batch] 80/864  94s
+[batch] 100/864  117s
+[batch] 120/864  166s
+[batch] 140/864  205s
+[batch] 160/864  243s
+[batch] 180/864  278s
+[batch] 200/864  312s
+[batch] 220/864  334s
+[batch] 240/864  361s
+[batch] 260/864  382s
+[batch] 280/864  410s
+[batch] 300/864  448s
+[batch] 320/864  524s
+[batch] 340/864  601s
+[batch] 360/864  679s
+[batch] 380/864  749s
+[batch] 400/864  799s
+[batch] 420/864  838s
+[batch] 440/864  886s
+[batch] 460/864  925s
+[batch] 480/864  971s
+[batch] 500/864  1037s
+[batch] 520/864  1114s
+[batch] 540/864  1189s
+[batch] 560/864  1267s
+[batch] 580/864  1315s
+[batch] 600/864  1343s
+[batch] 620/864  1365s
+[batch] 640/864  1394s
+[batch] 660/864  1416s
+[batch] 680/864  1443s
+[batch] 700/864  1464s
+[batch] 720/864  1487s
+[batch] 740/864  1507s
+[batch] 760/864  1534s
+[batch] 780/864  1581s
+[batch] 800/864  1614s
+[batch] 820/864  1668s
+[batch] 840/864  1719s
+[batch] 860/864  1782s
+[batch] 864/864  1790s
+guard     TDR1=0.9998 GDR=0.9998 config#7 {'alpha_s': 0.1, 'beta': 0.25, 'cE': 2.0, 'cR': 0.0, 'ebal': 0.5, 'hyst': 0.1, 'kappa': 0.5, 'nlr': 3, 'rdel': 0.0, 'u0': 0.3}
+twinloop  TDR1=0.8538 GDR=0.8538 config#4 {'Tc': 20.0, 'Va': 48.0, 'Vf': 0.25, 'a_p': 1.0, 'eta': 5.0, 'f0': 6.0, 'kappa': 0.8, 'lifo': False, 'phi_target': 0.1, 'tau_max': 0.25, 'theta': 8.0, 'theta0': 1.0}
+cetx      TDR1=0.7849 GDR=0.7849 config#4 {'Tc': 30.0, 'k': 25}
+bcp       TDR1=0.4521 GDR=0.8591 config#2 {'V': 6.0, 'hold': 0.005}
+cbpr      TDR1=0.7222 GDR=0.7222 config#0 {}
+ganaco    TDR1=0.8052 GDR=0.8052 config#5 {'Q': 1.0, 'Tc': 20.0, 'cf_thr': 0.6, 'k': 8, 'rho': 0.2}
+acsro     TDR1=0.7853 GDR=0.7853 config#11 {'Tc': 60.0, 'Tctrl': 5.0, 'k': 25, 'q_low': 0.4, 'w_l': 8.0}
+fsfg      TDR1=0.7745 GDR=0.7745 config#11 {'Tc': 60.0, 'Tctrl': 1.0, 'c_buf': 0.5, 'c_cca': 0.5, 'c_cf': 0.5, 'gain': 0.5, 'k': 25}
+rlcc      TDR1=0.7849 GDR=0.7849 config#11 {'Tc': 30.0, 'alpha': 0.2, 'gamma': 0.9, 'k': 25, 'w_b': 1.0, 'w_l': 1.0}

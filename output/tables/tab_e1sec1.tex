@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E1 at 1 reading/s per node: secondary metrics (means over 15 seeds; bold: best).\label{tab:e1sec1}}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabularx}{\fulllength}{lCCCCCCCCC}
+\toprule
+\textbf{Method} & \textbf{TDR(0.5 s)} & \textbf{TDR(2 s)} & \textbf{mean delay \newline[s]} & \textbf{99th-percentile delay \newline[s]} & \textbf{Jain index} & \textbf{collided frames (all receivers)} & \textbf{collided frames (sink)} & \textbf{frames per delivered reading} & \textbf{control bytes per node and s} \\
+\midrule
+GUARD & \textbf{1.000} & \textbf{1.000} & 0.033 & 0.140 & \textbf{1.000} & \textbf{0.115} & \textbf{0.105} & 3.67 & 27.00 \\
+TwinLoop & 0.897 & 0.929 & 0.122 & 0.594 & 0.997 & 0.142 & 0.219 & 3.14 & 26.33 \\
+C-ETX & 0.922 & 0.922 & 0.017 & 0.052 & 0.996 & 0.202 & 0.262 & 5.03 & 25.91 \\
+BCP & 0.283 & 0.576 & 2.415 & 19.776 & 0.994 & 0.224 & 0.150 & \textbf{1.08} & \textbf{25.00} \\
+CBPR-like & 0.889 & 0.889 & 0.044 & 0.136 & 0.989 & 0.182 & 0.227 & 9.03 & 25.91 \\
+GAN-ACO & 0.928 & 0.928 & 0.023 & 0.073 & 0.997 & 0.174 & 0.288 & 6.30 & 26.33 \\
+ACSRO-like & 0.922 & 0.922 & 0.017 & 0.052 & 0.996 & 0.203 & 0.263 & 5.02 & 25.49 \\
+FSFG-like & 0.899 & 0.899 & \textbf{0.016} & \textbf{0.051} & 0.996 & 0.198 & 0.259 & 4.99 & 25.49 \\
+RL-CC & 0.922 & 0.922 & 0.017 & 0.052 & 0.996 & 0.202 & 0.262 & 5.03 & 25.91 \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E1: readings lost to retry exhaustion per run by load [readings/s per node]; mean\,$\pm$\,95\% CI over 15 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e1:drop_retry}}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabularx}{\fulllength}{lCCCCCC}
+\toprule
+\textbf{Method} & \textbf{0.25} & \textbf{0.5} & \textbf{1} & \textbf{1.5} & \textbf{2} & \textbf{3} \\
+\midrule
+GUARD & \textbf{0}\,$\pm$\,\textbf{0} & \textbf{0}\,$\pm$\,\textbf{0} & \textbf{1}\,$\pm$\,\textbf{1} & \textbf{4}\,$\pm$\,\textbf{3} & \textbf{6}\,$\pm$\,\textbf{5} & \textbf{136}\,$\pm$\,\textbf{148} \\
+TwinLoop & 90\,$\pm$\,23$^{\blacktriangle}$ & 403\,$\pm$\,84$^{\blacktriangle}$ & 1832\,$\pm$\,338$^{\blacktriangle}$ & 4895\,$\pm$\,928$^{\blacktriangle}$ & 9702\,$\pm$\,1423$^{\blacktriangle}$ & 25440\,$\pm$\,2491$^{\blacktriangle}$ \\
+C-ETX & 77\,$\pm$\,17$^{\blacktriangle}$ & 350\,$\pm$\,65$^{\blacktriangle}$ & 2006\,$\pm$\,321$^{\blacktriangle}$ & 6013\,$\pm$\,776$^{\blacktriangle}$ & 12912\,$\pm$\,1333$^{\blacktriangle}$ & 32377\,$\pm$\,2571$^{\blacktriangle}$ \\
+BCP & 296\,$\pm$\,46$^{\blacktriangle}$ & 809\,$\pm$\,117$^{\blacktriangle}$ & 2267\,$\pm$\,304$^{\blacktriangle}$ & 4611\,$\pm$\,558$^{\blacktriangle}$ & 7912\,$\pm$\,839$^{\blacktriangle}$ & 17632\,$\pm$\,1649$^{\blacktriangle}$ \\
+CBPR-like & 69\,$\pm$\,21$^{\blacktriangle}$ & 395\,$\pm$\,107$^{\blacktriangle}$ & 2728\,$\pm$\,539$^{\blacktriangle}$ & 8939\,$\pm$\,1163$^{\blacktriangle}$ & 17777\,$\pm$\,1735$^{\blacktriangle}$ & 34468\,$\pm$\,2298$^{\blacktriangle}$ \\
+GAN-ACO & 93\,$\pm$\,14$^{\blacktriangle}$ & 426\,$\pm$\,113$^{\blacktriangle}$ & 1844\,$\pm$\,339$^{\blacktriangle}$ & 5023\,$\pm$\,826$^{\blacktriangle}$ & 11113\,$\pm$\,1677$^{\blacktriangle}$ & 25188\,$\pm$\,2754$^{\blacktriangle}$ \\
+ACSRO-like & 80\,$\pm$\,14$^{\blacktriangle}$ & 360\,$\pm$\,64$^{\blacktriangle}$ & 2014\,$\pm$\,314$^{\blacktriangle}$ & 6045\,$\pm$\,731$^{\blacktriangle}$ & 13010\,$\pm$\,1314$^{\blacktriangle}$ & 32591\,$\pm$\,2591$^{\blacktriangle}$ \\
+FSFG-like & 77\,$\pm$\,14$^{\blacktriangle}$ & 340\,$\pm$\,55$^{\blacktriangle}$ & 1881\,$\pm$\,296$^{\blacktriangle}$ & 5319\,$\pm$\,623$^{\blacktriangle}$ & 10963\,$\pm$\,1088$^{\blacktriangle}$ & 26735\,$\pm$\,2118$^{\blacktriangle}$ \\
+RL-CC & 77\,$\pm$\,17$^{\blacktriangle}$ & 350\,$\pm$\,65$^{\blacktriangle}$ & 2006\,$\pm$\,321$^{\blacktriangle}$ & 6013\,$\pm$\,776$^{\blacktriangle}$ & 12912\,$\pm$\,1333$^{\blacktriangle}$ & 32375\,$\pm$\,2572$^{\blacktriangle}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

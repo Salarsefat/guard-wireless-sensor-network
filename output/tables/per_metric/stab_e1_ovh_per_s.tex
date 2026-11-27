@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E1: protocol overhead bytes per node and s by load [readings/s per node]; mean\,$\pm$\,95\% CI over 15 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e1:ovh_per_s}}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabularx}{\fulllength}{lCCCCCC}
+\toprule
+\textbf{Method} & \textbf{0.25} & \textbf{0.5} & \textbf{1} & \textbf{1.5} & \textbf{2} & \textbf{3} \\
+\midrule
+GUARD & 27.00\,$\pm$\,0.00 & 27.00\,$\pm$\,0.00 & 27.00\,$\pm$\,0.00 & 27.00\,$\pm$\,0.00 & 27.00\,$\pm$\,0.00 & 27.00\,$\pm$\,0.00 \\
+TwinLoop & 28.21\,$\pm$\,0.08$^{\blacktriangle}$ & 29.69\,$\pm$\,0.15$^{\blacktriangle}$ & 32.15\,$\pm$\,0.22$^{\blacktriangle}$ & 34.55\,$\pm$\,0.24$^{\blacktriangle}$ & 37.25\,$\pm$\,0.32$^{\blacktriangle}$ & 43.18\,$\pm$\,0.38$^{\blacktriangle}$ \\
+C-ETX & 25.92\,$\pm$\,0.00$^{\triangledown}$ & 25.92\,$\pm$\,0.00$^{\triangledown}$ & 25.91\,$\pm$\,0.01$^{\triangledown}$ & 25.89\,$\pm$\,0.03$^{\triangledown}$ & 25.86\,$\pm$\,0.04$^{\triangledown}$ & 25.81\,$\pm$\,0.05$^{\triangledown}$ \\
+BCP & \textbf{25.38}\,$\pm$\,\textbf{0.01}$^{\triangledown}$ & 25.87\,$\pm$\,0.03$^{\triangledown}$ & 26.88\,$\pm$\,0.07$^{\triangledown}$ & 27.97\,$\pm$\,0.10$^{\blacktriangle}$ & 29.12\,$\pm$\,0.13$^{\blacktriangle}$ & 31.62\,$\pm$\,0.20$^{\blacktriangle}$ \\
+CBPR-like & 29.53\,$\pm$\,0.21$^{\blacktriangle}$ & 33.40\,$\pm$\,0.41$^{\blacktriangle}$ & 41.94\,$\pm$\,0.70$^{\blacktriangle}$ & 50.80\,$\pm$\,0.66$^{\blacktriangle}$ & 58.37\,$\pm$\,0.53$^{\blacktriangle}$ & 69.21\,$\pm$\,0.66$^{\blacktriangle}$ \\
+GAN-ACO & 26.33\,$\pm$\,0.00$^{\triangledown}$ & 26.33\,$\pm$\,0.00$^{\triangledown}$ & 26.33\,$\pm$\,0.00$^{\triangledown}$ & 26.33\,$\pm$\,0.01$^{\triangledown}$ & 26.33\,$\pm$\,0.01$^{\triangledown}$ & 26.31\,$\pm$\,0.03$^{\triangledown}$ \\
+ACSRO-like & 25.50\,$\pm$\,0.00$^{\triangledown}$ & \textbf{25.50}\,$\pm$\,\textbf{0.00}$^{\triangledown}$ & \textbf{25.49}\,$\pm$\,\textbf{0.01}$^{\triangledown}$ & \textbf{25.47}\,$\pm$\,\textbf{0.03}$^{\triangledown}$ & \textbf{25.45}\,$\pm$\,\textbf{0.04}$^{\triangledown}$ & 25.42\,$\pm$\,0.04$^{\triangledown}$ \\
+FSFG-like & 25.50\,$\pm$\,0.00$^{\triangledown}$ & 25.50\,$\pm$\,0.00$^{\triangledown}$ & 25.49\,$\pm$\,0.01$^{\triangledown}$ & 25.48\,$\pm$\,0.02$^{\triangledown}$ & 25.45\,$\pm$\,0.04$^{\triangledown}$ & \textbf{25.40}\,$\pm$\,\textbf{0.05}$^{\triangledown}$ \\
+RL-CC & 25.92\,$\pm$\,0.00$^{\triangledown}$ & 25.92\,$\pm$\,0.00$^{\triangledown}$ & 25.91\,$\pm$\,0.01$^{\triangledown}$ & 25.89\,$\pm$\,0.03$^{\triangledown}$ & 25.86\,$\pm$\,0.04$^{\triangledown}$ & 25.81\,$\pm$\,0.05$^{\triangledown}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

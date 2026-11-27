@@ -1,0 +1,21 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{Configurations selected by the equal-budget random search (12 configurations per method, validation seeds 2001--2002, loads 0.5/1/2/3 readings/s per node). Objective: mean TDR(1\,s); configurations within 0.5\,pp of the best are tied and the tie is broken by the lowest mean 95th-percentile delay. Configuration 0 is each method's default.\label{tab:tuned}}
+\footnotesize
+\begin{tabularx}{\fulllength}{lccccX}
+\toprule
+\textbf{Method} & \textbf{Config.} & \textbf{Tied} & \textbf{Val. TDR(1\,s)} & \textbf{Val. p95 [s]} & \textbf{Selected hyper-parameters (non-default)}\\
+\midrule
+GUARD & 7 & 12 & 1.000 & 0.106 & {\raggedright\footnotesize $\alpha$\,=\,0.1, $\beta$\,=\,0.25, $c_E$\,=\,2, $c_R$\,=\,0, $\omega$\,=\,0.5, $\zeta$\,=\,0.1, $\kappa$\,=\,0.5, $N_\mathrm{r}$\,=\,3, $b$\,=\,0, $u_0$\,=\,0.3} \\
+TwinLoop & 4 & 4 & 0.854 & 0.388 & {\raggedright\footnotesize $T_c$\,=\,20, $V_a$\,=\,48, $V_f$\,=\,0.25, $a_p$\,=\,1, $\eta$\,=\,5, $f_0$\,=\,6, $\kappa$\,=\,0.8, LIFO: no, $\phi^*$\,=\,0.1, $\tau_{\max}$\,=\,0.25, $\theta$\,=\,8, $\theta_0$\,=\,1} \\
+C-ETX & 4 & 1 & 0.785 & 0.060 & {\raggedright\footnotesize $T_c$\,=\,30, $k$\,=\,25} \\
+BCP & 2 & 2 & 0.452 & 7.757 & {\raggedright\footnotesize $V$\,=\,6, hold\,=\,0.005} \\
+CBPR-like & 0 & 7 & 0.722 & 0.141 & {\raggedright\footnotesize default setting} \\
+GAN-ACO & 5 & 3 & 0.805 & 0.106 & {\raggedright\footnotesize $Q$\,=\,1, $T_c$\,=\,20, CF thr.\,=\,0.6, $k$\,=\,8, $\rho$\,=\,0.2} \\
+ACSRO-like & 11 & 3 & 0.785 & 0.059 & {\raggedright\footnotesize $T_c$\,=\,60, $T_\mathrm{ctrl}$\,=\,5, $k$\,=\,25, $q_\mathrm{low}$\,=\,0.4, $w_l$\,=\,8} \\
+FSFG-like & 11 & 1 & 0.774 & 0.056 & {\raggedright\footnotesize $T_c$\,=\,60, $T_\mathrm{ctrl}$\,=\,1, $c_\mathrm{buf}$\,=\,0.5, $c_\mathrm{cca}$\,=\,0.5, $c_\mathrm{cf}$\,=\,0.5, $g$\,=\,0.5, $k$\,=\,25} \\
+RL-CC & 11 & 1 & 0.785 & 0.060 & {\raggedright\footnotesize $T_c$\,=\,30, $\alpha$\,=\,0.2, $\gamma$\,=\,0.9, $k$\,=\,25, $w_b$\,=\,1, $w_l$\,=\,1} \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

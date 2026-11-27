@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E1: readings lost to buffer overflow per run by load [readings/s per node]; mean\,$\pm$\,95\% CI over 15 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e1:drop_buf}}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabularx}{\fulllength}{lCCCCCC}
+\toprule
+\textbf{Method} & \textbf{0.25} & \textbf{0.5} & \textbf{1} & \textbf{1.5} & \textbf{2} & \textbf{3} \\
+\midrule
+GUARD & \textbf{0}\,$\pm$\,\textbf{0} & \textbf{0}\,$\pm$\,\textbf{0} & \textbf{0}\,$\pm$\,\textbf{0} & \textbf{0}\,$\pm$\,\textbf{0} & \textbf{0}\,$\pm$\,\textbf{0} & 947\,$\pm$\,1984 \\
+TwinLoop & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & \textbf{0}\,$\pm$\,\textbf{0}$^{\circ}$ \\
+C-ETX & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ \\
+BCP & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ \\
+CBPR-like & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ \\
+GAN-ACO & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 1\,$\pm$\,2$^{\circ}$ \\
+ACSRO-like & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ \\
+FSFG-like & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ \\
+RL-CC & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ & 0\,$\pm$\,0$^{\circ}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

@@ -1,0 +1,23 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E5: ablation of GUARD, tail delay and channel use; notation as in Table~\ref{tab:e5}.\label{tab:e5b}}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabularx}{\fulllength}{Xcccccccc}
+\toprule
+\textbf{Variant} & \multicolumn{4}{c}{\textbf{95th-percentile delay [s]}} & \multicolumn{4}{c}{\textbf{frames per delivered reading}} \\
+ & 0.5 & 1 & 2 & 3 & 0.5 & 1 & 2 & 3 \\
+\midrule
+GUARD (tuned) & 0.046 & 0.094 & 0.138 & 0.277 & 3.60 & 3.67 & 3.36 & 3.22 \\
+-- priced dispatch & 0.023$^{*}$ & 0.039$^{*}$ & 0.122 & 0.608$^{*}$ & 3.66 & 4.27$^{*}$ & 5.25$^{*}$ & 5.11$^{*}$ \\
+-- network-layer retransmission & 0.037$^{*}$ & 0.093 & 0.135 & 0.172$^{*}$ & 3.60 & 3.64 & 3.40 & 3.11 \\
++ decorrelation delay ($b$ = 10 ms) & 0.044 & 0.095 & 0.146$^{*}$ & 0.240 & 3.44$^{*}$ & 3.55 & 3.30$^{*}$ & 3.03$^{*}$ \\
+FIFO instead of EDF & 0.046 & 0.095 & 0.141 & 0.349 & 3.60 & 3.69 & 3.37 & 3.22 \\
+static ETX instead of measured & 0.056 & 0.109$^{*}$ & 0.196$^{*}$ & 0.367 & 3.45 & 3.69 & 4.66$^{*}$ & 5.98$^{*}$ \\
+-- energy terms & 0.023$^{*}$ & 0.040$^{*}$ & 0.096$^{*}$ & 0.208 & 3.68$^{*}$ & 4.28$^{*}$ & 4.27$^{*}$ & 3.58 \\
++ hidden-terminal model prior & 0.042 & 0.094 & 0.141 & 0.227 & 3.64 & 3.66 & 3.35 & 3.05 \\
+collection-tree core (measured ETX and retransmission only) & 0.023$^{*}$ & 0.040$^{*}$ & 0.110$^{*}$ & 0.581$^{*}$ & 3.68$^{*}$ & 4.28$^{*}$ & 5.12$^{*}$ & 5.04$^{*}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

@@ -1,0 +1,162 @@
+== E1: 810 jobs -> /home/salar/twinloop-wsn/results/test2/E1.jsonl
+[batch] 810 jobs, 0 done, 810 to run
+[batch] 20/810  13s
+[batch] 40/810  29s
+[batch] 60/810  144s
+[batch] 80/810  172s
+[batch] 100/810  200s
+[batch] 120/810  206s
+[batch] 140/810  214s
+[batch] 160/810  244s
+[batch] 180/810  258s
+[batch] 200/810  376s
+[batch] 220/810  418s
+[batch] 240/810  441s
+[batch] 260/810  450s
+[batch] 280/810  466s
+[batch] 300/810  517s
+[batch] 320/810  578s
+[batch] 340/810  673s
+[batch] 360/810  743s
+[batch] 380/810  763s
+[batch] 400/810  785s
+[batch] 420/810  817s
+[batch] 440/810  874s
+[batch] 460/810  973s
+[batch] 480/810  1064s
+[batch] 500/810  1149s
+[batch] 520/810  1181s
+[batch] 540/810  1213s
+[batch] 560/810  1271s
+[batch] 580/810  1330s
+[batch] 600/810  1467s
+[batch] 620/810  1564s
+[batch] 640/810  1655s
+[batch] 660/810  1701s
+[batch] 680/810  1757s
+[batch] 700/810  1837s
+[batch] 720/810  1918s
+[batch] 740/810  2077s
+[batch] 760/810  2225s
+[batch] 780/810  2326s
+[batch] 800/810  2392s
+[batch] 810/810  2428s
+== E5: 360 jobs -> /home/salar/twinloop-wsn/results/test2/E5.jsonl
+[batch] 360 jobs, 0 done, 360 to run
+[batch] 20/360  19s
+[batch] 40/360  74s
+[batch] 60/360  92s
+[batch] 80/360  168s
+[batch] 100/360  193s
+[batch] 120/360  251s
+[batch] 140/360  270s
+[batch] 160/360  328s
+[batch] 180/360  345s
+[batch] 200/360  434s
+[batch] 220/360  467s
+[batch] 240/360  597s
+[batch] 260/360  636s
+[batch] 280/360  715s
+[batch] 300/360  734s
+[batch] 320/360  798s
+[batch] 340/360  817s
+[batch] 360/360  890s
+== E4: 90 jobs -> /home/salar/twinloop-wsn/results/test2/E4.jsonl
+[batch] 90 jobs, 0 done, 90 to run
+[batch] 20/90  337s
+[batch] 40/90  598s
+[batch] 60/90  798s
+[batch] 80/90  881s
+[batch] 90/90  917s
+== E3: 540 jobs -> /home/salar/twinloop-wsn/results/test2/E3.jsonl
+[batch] 540 jobs, 0 done, 540 to run
+[batch] 20/540  61s
+[batch] 40/540  161s
+[batch] 60/540  249s
+[batch] 80/540  280s
+[batch] 100/540  306s
+[batch] 120/540  392s
+[batch] 140/540  624s
+[batch] 160/540  675s
+[batch] 180/540  695s
+[batch] 200/540  727s
+[batch] 220/540  896s
+[batch] 240/540  990s
+[batch] 260/540  1014s
+[batch] 280/540  1051s
+[batch] 300/540  1168s
+[batch] 320/540  1377s
+[batch] 340/540  1488s
+[batch] 360/540  1533s
+[batch] 380/540  1637s
+[batch] 400/540  1829s
+[batch] 420/540  1952s
+[batch] 440/540  1998s
+[batch] 460/540  2046s
+[batch] 480/540  2114s
+[batch] 500/540  2323s
+[batch] 520/540  2428s
+[batch] 540/540  2472s
+== E8: 270 jobs -> /home/salar/twinloop-wsn/results/test2/E8.jsonl
+[batch] 270 jobs, 0 done, 270 to run
+[batch] 20/270  53s
+[batch] 40/270  166s
+[batch] 60/270  242s
+[batch] 80/270  266s
+[batch] 100/270  299s
+[batch] 120/270  377s
+[batch] 140/270  505s
+[batch] 160/270  601s
+[batch] 180/270  644s
+[batch] 200/270  760s
+[batch] 220/270  909s
+[batch] 240/270  1038s
+[batch] 260/270  1081s
+[batch] 270/270  1105s
+== E6: 290 jobs -> /home/salar/twinloop-wsn/results/test2/E6.jsonl
+[batch] 290 jobs, 0 done, 290 to run
+[batch] 20/290  51s
+[batch] 40/290  96s
+[batch] 60/290  144s
+[batch] 80/290  191s
+[batch] 100/290  236s
+[batch] 120/290  280s
+[batch] 140/290  327s
+[batch] 160/290  371s
+[batch] 180/290  416s
+[batch] 200/290  464s
+[batch] 220/290  512s
+[batch] 240/290  556s
+[batch] 260/290  598s
+[batch] 280/290  646s
+[batch] 290/290  668s
+== E7: 140 jobs -> /home/salar/twinloop-wsn/results/test2/E7.jsonl
+[batch] 140 jobs, 0 done, 140 to run
+[batch] 20/140  42s
+[batch] 40/140  90s
+[batch] 60/140  129s
+[batch] 80/140  165s
+[batch] 100/140  203s
+[batch] 120/140  244s
+[batch] 140/140  282s
+== E2: 360 jobs -> /home/salar/twinloop-wsn/results/test2/E2.jsonl
+[batch] 360 jobs, 0 done, 360 to run
+[batch] 20/360  284s
+[batch] 40/360  659s
+[batch] 60/360  944s
+[batch] 80/360  1072s
+[batch] 100/360  1173s
+[batch] 120/360  1275s
+[batch] 140/360  1512s
+[batch] 160/360  1630s
+[batch] 180/360  1691s
+[batch] 200/360  1729s
+[batch] 220/360  1817s
+[batch] 240/360  1876s
+[batch] 260/360  1896s
+[batch] 280/360  1911s
+[batch] 300/360  1925s
+[batch] 320/360  1970s
+[batch] 340/360  2004s
+[batch] 360/360  2011s
+ALL DONE

@@ -1,0 +1,23 @@
+\begin{table}[!htb]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E5: ablation of GUARD, timely delivery and energy (means over 10 seeds; columns: offered load in readings/s per node). Each row removes, adds or replaces one component of the tuned configuration; FIFO: first in, first out. $^{*}$: different from the full method (two-sided Wilcoxon signed-rank test, Bonferroni over the 8 variants, $\alpha=0.05$).\label{tab:e5}}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabularx}{\fulllength}{Xcccccccc}
+\toprule
+\textbf{Variant} & \multicolumn{4}{c}{\textbf{TDR(1\,s)}} & \multicolumn{4}{c}{\textbf{energy per reading [mJ]}} \\
+ & 0.5 & 1 & 2 & 3 & 0.5 & 1 & 2 & 3 \\
+\midrule
+GUARD (tuned) & 1.000 & 1.000 & 1.000 & 0.975 & 0.518 & 0.367 & 0.285 & 0.276 \\
+-- priced dispatch & 1.000 & 1.000 & 0.998$^{*}$ & 0.946$^{*}$ & 0.519 & 0.383$^{*}$ & 0.353$^{*}$ & 0.357$^{*}$ \\
+-- network-layer retransmission & 0.992$^{*}$ & 0.989$^{*}$ & 0.981$^{*}$ & 0.966 & 0.517 & 0.365 & 0.286 & 0.259 \\
++ decorrelation delay ($b$ = 10 ms) & 1.000 & 1.000 & 1.000 & 0.998 & 0.514 & 0.362 & 0.282 & 0.257$^{*}$ \\
+FIFO instead of EDF & 1.000 & 1.000 & 1.000 & 0.951 & 0.518 & 0.368 & 0.287 & 0.277 \\
+static ETX instead of measured & 0.999 & 0.992$^{*}$ & 0.909$^{*}$ & 0.762$^{*}$ & 0.543$^{*}$ & 0.424$^{*}$ & 0.481$^{*}$ & 0.644$^{*}$ \\
+-- energy terms & 1.000 & 1.000 & 1.000 & 0.998 & 0.519 & 0.384$^{*}$ & 0.318$^{*}$ & 0.279 \\
++ hidden-terminal model prior & 1.000 & 1.000 & 1.000 & 0.998 & 0.519 & 0.365 & 0.283 & 0.257$^{*}$ \\
+collection-tree core (measured ETX and retransmission only) & 1.000 & 1.000 & 0.999$^{*}$ & 0.932$^{*}$ & 0.519 & 0.384$^{*}$ & 0.346$^{*}$ & 0.352$^{*}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

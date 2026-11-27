@@ -1,0 +1,22 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E2: energy per reading [mJ] by number of sensors; mean\,$\pm$\,95\% CI over 10 test seeds; best mean in bold; markers: $^{\blacktriangle}$ GUARD significantly better, $^{\triangledown}$ significantly worse, $^{\circ}$ no significant difference (Wilcoxon signed-rank, Holm over 8 baselines).\label{stab:e2:energy_per_reading_mJ}}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabularx}{\fulllength}{lCCCC}
+\toprule
+\textbf{Method} & \textbf{50} & \textbf{100} & \textbf{200} & \textbf{300} \\
+\midrule
+GUARD & 0.292\,$\pm$\,0.013 & 0.367\,$\pm$\,0.010 & \textbf{0.479}\,$\pm$\,\textbf{0.029} & \textbf{0.571}\,$\pm$\,\textbf{0.068} \\
+TwinLoop & 0.321\,$\pm$\,0.012$^{\blacktriangle}$ & 0.415\,$\pm$\,0.014$^{\blacktriangle}$ & 0.627\,$\pm$\,0.047$^{\blacktriangle}$ & 0.929\,$\pm$\,0.060$^{\blacktriangle}$ \\
+C-ETX & 0.324\,$\pm$\,0.014$^{\blacktriangle}$ & 0.473\,$\pm$\,0.019$^{\blacktriangle}$ & 0.898\,$\pm$\,0.092$^{\blacktriangle}$ & 1.547\,$\pm$\,0.208$^{\blacktriangle}$ \\
+BCP & \textbf{0.237}\,$\pm$\,\textbf{0.008}$^{\triangledown}$ & \textbf{0.322}\,$\pm$\,\textbf{0.015}$^{\triangledown}$ & 0.534\,$\pm$\,0.053$^{\blacktriangle}$ & 0.742\,$\pm$\,0.042$^{\blacktriangle}$ \\
+CBPR-like & 0.440\,$\pm$\,0.013$^{\blacktriangle}$ & 0.621\,$\pm$\,0.037$^{\blacktriangle}$ & 1.458\,$\pm$\,0.216$^{\blacktriangle}$ & 2.383\,$\pm$\,0.304$^{\blacktriangle}$ \\
+GAN-ACO & 0.384\,$\pm$\,0.013$^{\blacktriangle}$ & 0.517\,$\pm$\,0.021$^{\blacktriangle}$ & 0.914\,$\pm$\,0.113$^{\blacktriangle}$ & 1.429\,$\pm$\,0.192$^{\blacktriangle}$ \\
+ACSRO-like & 0.320\,$\pm$\,0.015$^{\blacktriangle}$ & 0.471\,$\pm$\,0.019$^{\blacktriangle}$ & 0.899\,$\pm$\,0.094$^{\blacktriangle}$ & 1.538\,$\pm$\,0.217$^{\blacktriangle}$ \\
+FSFG-like & 0.322\,$\pm$\,0.015$^{\blacktriangle}$ & 0.474\,$\pm$\,0.019$^{\blacktriangle}$ & 0.879\,$\pm$\,0.089$^{\blacktriangle}$ & 1.474\,$\pm$\,0.193$^{\blacktriangle}$ \\
+RL-CC & 0.324\,$\pm$\,0.014$^{\blacktriangle}$ & 0.473\,$\pm$\,0.019$^{\blacktriangle}$ & 0.898\,$\pm$\,0.092$^{\blacktriangle}$ & 1.547\,$\pm$\,0.208$^{\blacktriangle}$ \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

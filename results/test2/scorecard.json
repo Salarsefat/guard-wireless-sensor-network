@@ -1,0 +1,242 @@
+[
+ {
+  "objective": "timely delivery ratio TDR(1 s) (in E4 the denominators differ between methods)",
+  "metric": "tdr_1",
+  "experiments": "E1,E2,E3,E4,E8",
+  "comparisons": 160,
+  "win": 159,
+  "tie": 1,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "timely delivery ratio TDR(0.5 s)",
+  "metric": "tdr_05",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 48,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "timely delivery ratio TDR(2 s)",
+  "metric": "tdr_2",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 48,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "packet delivery ratio",
+  "metric": "gdr",
+  "experiments": "E1,E2,E3,E4,E8",
+  "comparisons": 160,
+  "win": 158,
+  "tie": 1,
+  "loss": 1,
+  "baselines_better": "bcp"
+ },
+ {
+  "objective": "throughput",
+  "metric": "throughput_rps",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 48,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "fairness (Jain index)",
+  "metric": "jain",
+  "experiments": "E1,E2,E3",
+  "comparisons": 128,
+  "win": 128,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "packet loss ratio",
+  "metric": "lost_frac",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 48,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "mean delay",
+  "metric": "delay_mean",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 21,
+  "tie": 8,
+  "loss": 19,
+  "baselines_better": "acsro, cetx, fsfg, ganaco, rlcc, twinloop"
+ },
+ {
+  "objective": "95th-percentile delay",
+  "metric": "delay_p95",
+  "experiments": "E1,E2,E3,E8",
+  "comparisons": 152,
+  "win": 47,
+  "tie": 21,
+  "loss": 84,
+  "baselines_better": "acsro, cbpr, cetx, fsfg, ganaco, rlcc"
+ },
+ {
+  "objective": "99th-percentile delay",
+  "metric": "delay_p99",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 15,
+  "tie": 10,
+  "loss": 23,
+  "baselines_better": "acsro, cetx, fsfg, ganaco, rlcc"
+ },
+ {
+  "objective": "energy per delivered reading",
+  "metric": "energy_per_reading_mJ",
+  "experiments": "E1,E2,E3,E4,E8",
+  "comparisons": 160,
+  "win": 145,
+  "tie": 1,
+  "loss": 14,
+  "baselines_better": "bcp"
+ },
+ {
+  "objective": "collided frames (all receivers)",
+  "metric": "coll_frac_all",
+  "experiments": "E1,E2",
+  "comparisons": 80,
+  "win": 78,
+  "tie": 1,
+  "loss": 1,
+  "baselines_better": "cbpr"
+ },
+ {
+  "objective": "collided frames (sink)",
+  "metric": "sink_coll_frac",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 44,
+  "tie": 4,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "frames per delivered reading",
+  "metric": "frames_per_reading",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 38,
+  "tie": 2,
+  "loss": 8,
+  "baselines_better": "bcp, twinloop"
+ },
+ {
+  "objective": "control bytes",
+  "metric": "ctrl_per_s",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 0,
+  "tie": 0,
+  "loss": 48,
+  "baselines_better": "acsro, bcp, cbpr, cetx, fsfg, ganaco, rlcc, twinloop"
+ },
+ {
+  "objective": "total protocol overhead bytes",
+  "metric": "ovh_per_s",
+  "experiments": "E1",
+  "comparisons": 48,
+  "win": 15,
+  "tie": 0,
+  "loss": 33,
+  "baselines_better": "acsro, bcp, cetx, fsfg, ganaco, rlcc"
+ },
+ {
+  "objective": "lifetime: first node dead",
+  "metric": "fnd_f",
+  "experiments": "E4",
+  "comparisons": 8,
+  "win": 8,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "lifetime: alive fraction at 900 s",
+  "metric": "alive_frac",
+  "experiments": "E4",
+  "comparisons": 8,
+  "win": 6,
+  "tie": 2,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "lifetime: timely readings delivered",
+  "metric": "timely",
+  "experiments": "E4",
+  "comparisons": 8,
+  "win": 7,
+  "tie": 1,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "lifetime: readings delivered",
+  "metric": "delivered",
+  "experiments": "E4",
+  "comparisons": 8,
+  "win": 6,
+  "tie": 1,
+  "loss": 1,
+  "baselines_better": "bcp"
+ },
+ {
+  "objective": "lifetime: time with >= 90 % delivery",
+  "metric": "collapse90",
+  "experiments": "E4",
+  "comparisons": 8,
+  "win": 8,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "lifetime: time with >= 50 % delivery",
+  "metric": "collapse50",
+  "experiments": "E4",
+  "comparisons": 8,
+  "win": 6,
+  "tie": 1,
+  "loss": 1,
+  "baselines_better": "bcp"
+ },
+ {
+  "objective": "critical-reading delivery ratio (events)",
+  "metric": "gdr_crit",
+  "experiments": "E3",
+  "comparisons": 8,
+  "win": 8,
+  "tie": 0,
+  "loss": 0,
+  "baselines_better": ""
+ },
+ {
+  "objective": "critical-reading 95th-percentile delay (events)",
+  "metric": "delay_crit_p95",
+  "experiments": "E3",
+  "comparisons": 8,
+  "win": 3,
+  "tie": 0,
+  "loss": 5,
+  "baselines_better": "acsro, cetx, fsfg, ganaco, rlcc"
+ }
+]

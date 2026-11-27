@@ -1,0 +1,29 @@
+\begin{table}[!htb]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{E1: number of loads (out of 6) at which GUARD is significantly better / not significantly different / significantly worse than each baseline (Wilcoxon signed-rank, Holm over 8 baselines, $\alpha=0.05$, 15 seeds). Italics: at least one significant loss.\label{tab:e1wtl}}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabularx}{\fulllength}{Xcccccccc}
+\toprule
+\textbf{Metric} & \textbf{TwinLoop} & \textbf{C-ETX} & \textbf{BCP} & \textbf{CBPR-like} & \textbf{GAN-ACO} & \textbf{ACSRO-like} & \textbf{FSFG-like} & \textbf{RL-CC} \\
+\midrule
+TDR(0.5 s) & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+TDR(1 s) & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+TDR(2 s) & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+delivery ratio & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+throughput [readings/s] & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+mean delay [s] & \textit{5/0/1} & \textit{1/1/4} & 6/0/0 & 5/1/0 & \textit{1/3/2} & \textit{1/1/4} & \textit{1/1/4} & \textit{1/1/4} \\
+95th-percentile delay [s] & 5/1/0 & \textit{1/0/5} & 6/0/0 & 3/3/0 & \textit{1/3/2} & \textit{1/0/5} & \textit{1/0/5} & \textit{1/0/5} \\
+99th-percentile delay [s] & 5/1/0 & \textit{0/1/5} & 6/0/0 & 3/3/0 & \textit{1/2/3} & \textit{0/1/5} & \textit{0/1/5} & \textit{0/1/5} \\
+energy per reading [mJ] & 6/0/0 & 6/0/0 & \textit{1/1/4} & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+Jain index & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+loss ratio & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+collided frames (all receivers) & 6/0/0 & 6/0/0 & 6/0/0 & \textit{4/1/1} & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+collided frames (sink) & 6/0/0 & 6/0/0 & 4/2/0 & 4/2/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+frames per delivered reading & \textit{2/2/2} & 6/0/0 & \textit{0/0/6} & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 & 6/0/0 \\
+control bytes per node and s & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} \\
+protocol overhead bytes per node and s & 6/0/0 & \textit{0/0/6} & \textit{3/0/3} & 6/0/0 & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} & \textit{0/0/6} \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

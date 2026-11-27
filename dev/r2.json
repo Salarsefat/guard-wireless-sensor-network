@@ -1,0 +1,6 @@
+{"A_ht_nlr_h0": {"route": "ht", "batch": "none", "nlr": 2, "edf": false, "hdr": 0},
+ "B_b_c0k4":    {"route": "ht", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 4.0},
+ "C_b_c0k1":    {"route": "ht", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 1.0},
+ "D_meas_nlr":  {"route": "meas", "batch": "none", "nlr": 2, "edf": false, "hdr": 0},
+ "E_b_k4_w05":  {"route": "ht", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.0, "kappa": 4.0, "wmax": 0.05},
+ "F_b_c025k4":  {"route": "ht", "batch": "sqrt", "nlr": 2, "edf": true, "hdr": 0, "c0": 0.25, "kappa": 4.0}}
